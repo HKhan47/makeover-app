@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="weidth=device-weidth, initial-scale=1.0">
+    <title>Zeenixmakeover</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https:fonts.googleapis.com/css?family=flamenco">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.main.css">
+    <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/fonts-awesome/4.7.0/css/fonts-awesome.main.css">
+
+
+</head>
+<body>
+	<header>
+        <nav> 
+            <div class="row clearfix">
+                <img src="img/logo.jpg" class="logo" alt="make over" >
+            
+                <ul class="main-nav animated slideInDown"  id="check-class">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PORFOLIO</a></li>
+                </ul>
+                <a href="#" class="mobile-icon" onclick="slideshow()"> </a>
+            </div>
+        </nav>
+
+        <div class="main-contect-header">
+        <h1>WELCOME TO <span class="color-change">ZEENIXMAKEOVE</span>. <br>HOUSE OF BEAUTY LOVER.</h1>
+        <a href="#" class="btn btn-full">Photo Album</a>
+        <a href="#" class="btn btn-nav">Video Galary</a>
+        </div>
+        
+    </header>
+
+    <script type="text/javascript">
+
+        function slideshow(){
+            var x = document.getElementById('check-class');
+            if (x.style.display === "none"){
+                x.style.display="block";
+            } 
+            else {
+                x.style.display="none";
+            }
+        }
+
+    </script>
+
+
+
+</body>
+</html>
